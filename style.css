@@ -67,7 +67,8 @@ p, h1, h2, dl, dd { margin-top: 0; }
   align-items: center;
   padding: 28px 0;
   border-bottom: 1px solid var(--line);
-  background: rgba(238, 241, 243, 0);
+  background: rgba(238, 241, 243, .82);
+  backdrop-filter: blur(12px);
   transform: translateX(-50%);
   transition:
     top 260ms ease,
