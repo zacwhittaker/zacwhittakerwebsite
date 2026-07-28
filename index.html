@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="The personal portfolio of Zac Whittaker." />
-    <meta name="theme-color" content="#080c12" />
+    <meta name="theme-color" content="#eef1f3" />
     <title>Zac Whittaker — Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,110 +12,105 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="page-shell">
-      <header class="site-header">
-        <a class="brand" href="#top" aria-label="Zac Whittaker, home">
-          <span class="brand-mark">ZW</span>
-          <span>Zac Whittaker</span>
-        </a>
-        <nav aria-label="Main navigation">
-          <a href="#work">Work</a>
-          <a href="#about">About</a>
-          <a class="button button-small" href="#contact">Contact</a>
-        </nav>
-      </header>
+    <header class="site-header">
+      <a class="wordmark" href="#top">Zac Whittaker</a>
+      <p class="header-note">Personal portfolio</p>
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-      <main id="top">
-        <section class="hero">
-          <div class="hero-pattern" aria-hidden="true"></div>
-          <div class="hero-content">
-            <div class="hero-mark">ZW</div>
-            <p class="eyebrow">Personal portfolio</p>
-            <h1>Zac Whittaker</h1>
-            <p class="hero-copy">
-              A considered collection of work, ideas and things in progress.
-            </p>
-            <a class="hero-link" href="#work">View selected work <span>↓</span></a>
-          </div>
-        </section>
+    <main id="top">
+      <section class="hero">
+        <div class="hero-name" aria-labelledby="hero-title">
+          <p class="overline">Hello, I’m</p>
+          <h1 id="hero-title">Zac<br />Whittaker<span>.</span></h1>
+        </div>
+        <div class="hero-aside">
+          <p class="hero-statement">
+            A place for the work I’ve done, the things I’m interested in, and
+            whatever comes next.
+          </p>
+          <a class="arrow-link" href="#work">View the portfolio <span>↘</span></a>
+        </div>
+        <div class="hero-band" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </section>
 
-        <section class="intro" id="about">
-          <div class="content-card intro-card">
-            <p class="section-kicker">About</p>
-            <h2>Curious, thoughtful,<br />and always moving forward.</h2>
+      <section class="work" id="work" aria-labelledby="work-title">
+        <div class="section-index">01</div>
+        <div class="section-main">
+          <div class="section-intro">
+            <p class="overline">Selected work</p>
+            <h2 id="work-title">The work, without the noise.</h2>
             <p>
-              I’m Zac. This is a simple home for the work I’m proud of and the
-              ideas I’m exploring. More details and projects are coming soon.
+              I’m currently putting together the projects I want to show
+              properly. They’ll appear here with the story and context they
+              deserve.
             </p>
           </div>
-        </section>
 
-        <section class="work" id="work" aria-labelledby="work-title">
-          <div class="section-heading">
-            <div>
-              <p class="section-kicker">Selected work</p>
-              <h2 id="work-title">A few highlights.</h2>
+          <div class="work-list">
+            <div class="work-row">
+              <span class="work-number">01</span>
+              <p>First selected project</p>
+              <span class="work-meta">Coming soon</span>
             </div>
-            <p>Projects will be added here as the portfolio grows.</p>
+            <div class="work-row">
+              <span class="work-number">02</span>
+              <p>Second selected project</p>
+              <span class="work-meta">Coming soon</span>
+            </div>
+            <div class="work-row">
+              <span class="work-number">03</span>
+              <p>Notes, ideas &amp; experiments</p>
+              <span class="work-meta">Ongoing</span>
+            </div>
           </div>
+        </div>
+      </section>
 
-          <div class="project-grid">
-            <article class="project-card">
-              <div class="project-image project-one" aria-hidden="true">
-                <span class="project-monogram">01</span>
-              </div>
-              <div class="project-info">
-                <div>
-                  <h3>Project one</h3>
-                  <p>Selected project · Coming soon</p>
-                </div>
-                <span aria-hidden="true">↗</span>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-image project-two" aria-hidden="true">
-                <span class="project-monogram">02</span>
-              </div>
-              <div class="project-info">
-                <div>
-                  <h3>Project two</h3>
-                  <p>Selected project · Coming soon</p>
-                </div>
-                <span aria-hidden="true">↗</span>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-image project-three" aria-hidden="true">
-                <span class="project-monogram">03</span>
-              </div>
-              <div class="project-info">
-                <div>
-                  <h3>In progress</h3>
-                  <p>Ideas and experiments</p>
-                </div>
-                <span aria-hidden="true">↗</span>
-              </div>
-            </article>
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div class="section-index">02</div>
+        <div class="section-main about-grid">
+          <div>
+            <p class="overline">About</p>
+            <h2 id="about-title">A little about me.</h2>
           </div>
-        </section>
-
-        <section class="contact" id="contact">
-          <div class="content-card contact-card">
-            <p class="section-kicker">Get in touch</p>
-            <h2>Let’s start a conversation.</h2>
-            <p>Have an idea, opportunity, or something worth discussing?</p>
-            <a class="button button-primary" href="mailto:">Send me an email <span>↗</span></a>
+          <div class="about-copy">
+            <p class="lead">
+              I’m Zac. I’m curious, thoughtful, and interested in doing good
+              work with good people.
+            </p>
+            <p>
+              This site is a growing record of what I’ve worked on and what I’m
+              learning along the way. It’s intentionally simple so the work can
+              take the lead.
+            </p>
+            <dl>
+              <div><dt>Based</dt><dd>United Kingdom</dd></div>
+              <div><dt>Portfolio</dt><dd>In progress</dd></div>
+              <div><dt>Interested in</dt><dd>Good ideas &amp; new opportunities</dd></div>
+            </dl>
           </div>
-        </section>
-      </main>
+        </div>
+      </section>
 
-      <footer>
-        <p>© <span id="year">2026</span> Zac Whittaker</p>
-        <a href="#top">Back to top ↑</a>
-      </footer>
-    </div>
+      <section class="contact" id="contact">
+        <p class="overline">Have something in mind?</p>
+        <h2>Let’s talk<span>.</span></h2>
+        <a class="contact-link" href="mailto:">Send me an email <span>↗</span></a>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year">2026</span> Zac Whittaker</p>
+      <p>Made with care in the UK</p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
     <script type="module" src="./script.js"></script>
   </body>
 </html>
