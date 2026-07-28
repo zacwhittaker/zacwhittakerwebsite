@@ -118,11 +118,23 @@ h1 span, .contact h2 span { color: var(--blue-grey); }
   width: 38%;
   height: 150px;
   gap: 7px;
-  opacity: .42;
+  opacity: .82;
   transform: rotate(-5deg);
 }
-.hero-band span { flex: 1; border-radius: 100% 0; background: var(--blue-grey); }
-.hero-band span:nth-child(even) { background: var(--mist); transform: rotate(180deg); }
+.hero-band span {
+  flex: 1;
+  border: 1px solid rgba(21, 36, 58, .08);
+  border-radius: 100% 0;
+  background: linear-gradient(145deg, #8da3b0, #647f90);
+  box-shadow: 0 14px 32px rgba(21, 36, 58, .08);
+}
+.hero-band span:nth-child(even) {
+  background: linear-gradient(145deg, #d0dbe0, #aebfc8);
+  transform: rotate(180deg);
+}
+.hero-band span:nth-child(3) {
+  background: linear-gradient(145deg, #7893a2, #4f6d80);
+}
 
 .work, .about {
   display: grid;
