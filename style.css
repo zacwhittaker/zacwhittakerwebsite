@@ -12,11 +12,46 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
+  position: relative;
+  isolation: isolate;
   margin: 0;
   background: var(--ground);
   color: var(--navy);
   font-family: "DM Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background-image:
+    repeating-linear-gradient(30deg, transparent 0 51px, rgba(67, 85, 104, .16) 52px 53px, transparent 54px 104px),
+    repeating-linear-gradient(-30deg, transparent 0 51px, rgba(113, 138, 153, .14) 52px 53px, transparent 54px 104px);
+  background-position: 0 0, 0 0;
+  background-size: 120px 208px;
+  content: "";
+  -webkit-mask-image: linear-gradient(to bottom, transparent 1%, #000 12%, rgba(0,0,0,.38) 34%, #000 52%, rgba(0,0,0,.3) 74%, transparent 96%);
+  mask-image: linear-gradient(to bottom, transparent 1%, #000 12%, rgba(0,0,0,.38) 34%, #000 52%, rgba(0,0,0,.3) 74%, transparent 96%);
+}
+
+body::after {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 84% 13%, rgba(220, 227, 231, .88), transparent 27%),
+    radial-gradient(circle at 8% 54%, rgba(247, 248, 248, .76), transparent 25%);
+  content: "";
+}
+
+.site-header,
+main,
+footer {
+  position: relative;
+  z-index: 1;
 }
 a { color: inherit; text-decoration: none; }
 p, h1, h2, dl, dd { margin-top: 0; }
@@ -97,7 +132,11 @@ h1 span, .contact h2 span { color: var(--blue-grey); }
   padding: 120px 0;
   border-top: 1px solid var(--line);
 }
-.work { background: var(--paper); box-shadow: 50vw 0 var(--paper), -50vw 0 var(--paper); }
+.work {
+  background: rgba(247, 248, 248, .86);
+  box-shadow: 50vw 0 rgba(247, 248, 248, .86), -50vw 0 rgba(247, 248, 248, .86);
+  backdrop-filter: blur(4px);
+}
 .section-index { padding-top: 6px; color: var(--blue-grey); font-size: .68rem; }
 .section-intro { display: grid; grid-template-columns: .8fr 1.15fr .8fr; gap: 45px; align-items: start; }
 .section-intro h2, .about h2 {
@@ -137,10 +176,26 @@ dt { color: var(--blue-grey); }
 dd { margin-bottom: 0; }
 
 .contact {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   padding: 130px 32px;
   background: var(--navy);
   color: var(--paper);
   text-align: center;
+}
+.contact::before {
+  position: absolute;
+  inset: -80px;
+  z-index: -1;
+  opacity: .15;
+  background-image:
+    repeating-linear-gradient(30deg, transparent 0 51px, rgba(220, 227, 231, .65) 52px 53px, transparent 54px 104px),
+    repeating-linear-gradient(-30deg, transparent 0 51px, rgba(220, 227, 231, .5) 52px 53px, transparent 54px 104px);
+  background-size: 120px 208px;
+  content: "";
+  -webkit-mask-image: radial-gradient(circle at center, #000, transparent 72%);
+  mask-image: radial-gradient(circle at center, #000, transparent 72%);
 }
 .contact .overline { color: var(--mist); }
 .contact h2 {
