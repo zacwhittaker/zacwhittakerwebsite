@@ -2,7 +2,7 @@ const year = document.querySelector("#year");
 if (year) year.textContent = new Date().getFullYear();
 
 const revealTargets = document.querySelectorAll(
-  ".statement, .section-heading, .project, .about-art, .about-copy"
+  ".content-card, .section-heading, .project-card"
 );
 if ("IntersectionObserver" in window) {
   revealTargets.forEach((target) => target.classList.add("reveal"));
