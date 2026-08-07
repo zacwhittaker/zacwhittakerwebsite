@@ -235,22 +235,6 @@ h1 span { color: var(--duck-egg); }
   letter-spacing: -.08em;
 }
 .hero-mark-orbit { position: absolute; bottom: -28px; color: var(--duck-egg); font-size: .58rem; letter-spacing: .18em; text-transform: uppercase; }
-.principles {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: clamp(28px, 5vw, 80px);
-  min-height: 88px;
-  padding: 20px 32px;
-  background: var(--slate);
-  color: var(--paper);
-  text-transform: uppercase;
-  letter-spacing: .13em;
-  font-size: .7rem;
-}
-.principles p { margin: 0; }
-.separator-icon { width: 15px; height: 15px; object-fit: contain; }
-
 .work, .about {
   display: grid;
   width: min(1320px, calc(100% - 64px));
@@ -608,8 +592,6 @@ footer p { margin-bottom: 0; }
   .hero-mark-orbit { display: none; }
   .hero-aside { max-width: 520px; }
   .hero-statement { margin-bottom: 25px; font-size: 1.05rem; }
-  .principles { justify-content: flex-start; gap: 18px; min-height: 74px; padding: 18px 16px; overflow: hidden; white-space: nowrap; }
-  .principles p { font-size: .62rem; }
   .work, .about { width: calc(100% - 32px); grid-template-columns: 1fr; gap: 24px; padding: 82px 0; }
   .section-index { padding: 0; }
   .section-intro, .about-grid { grid-template-columns: 1fr; gap: 22px; }
