@@ -27,7 +27,8 @@ Every page must include all of the following entries, using the current site nav
 - Keep `html` and `body` at a minimum height of `100%`/`100dvh`.
 - Do not introduce a white or light-grey root background, loading screen, overscroll area or safe-area filler.
 - Use `env(safe-area-inset-top)` and `env(safe-area-inset-bottom)` where fixed elements touch viewport edges.
-- Use `100vh`, `100svh` and `100dvh` fallbacks for full-screen sections.
+- For a full-screen landing section or overlay, declare `100vh`, `100svh`, `100dvh` and finally `100lvh`, in that order. The final large-viewport value keeps the section extending behind Safari's translucent bottom toolbar so the next section cannot show through it.
+- Never replace that viewport height with a fixed pixel `min-height` inside a narrow-screen media query. A later fixed value wins in the cascade and exposes the following section on small iPhones.
 - Keep `manifest.webmanifest` `background_color` and `theme_color` synchronized with `--navy`.
 
 ## Before publishing
@@ -36,6 +37,7 @@ Every page must include all of the following entries, using the current site nav
 - Inspect every selector targeting the page's `<body>` class and confirm none overrides the navy canvas.
 - Test normal and private Safari tabs on a current iPhone.
 - Check the top status area, overscroll at the top, and the area behind the bottom toolbar.
+- On iOS Safari, confirm the next section is not visible behind the floating bottom toolbar before the user scrolls.
 - Test both light and dark device appearance settings.
 - Test the page while opened directly, not only after navigating from the homepage.
 - Bump the stylesheet cache query after shared CSS changes.
