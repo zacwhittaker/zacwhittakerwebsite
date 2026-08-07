@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./style.css?v=20260807-icons-glow" />
+    <link rel="stylesheet" href="./style.css?v=20260807-projects" />
   </head>
   <body>
     <header class="site-header">
@@ -62,30 +62,44 @@
         <div class="section-main">
           <div class="section-intro">
             <p class="overline">Selected work</p>
-            <h2 id="work-title">Good work deserves a good story.</h2>
+            <h2 id="work-title">Built with curiosity. Shipped with care.</h2>
             <p>
-              I’m currently putting together the projects I want to show
-              properly. They’ll appear here with the story and context they
-              deserve.
+              Three products spanning native mobile, community platforms and
+              automation—each designed and built through close collaboration
+              with Codex.
             </p>
           </div>
 
-          <div class="work-list">
-            <div class="work-row work-row-featured">
-              <span class="work-number">01</span>
-              <p>First selected project <img class="row-arrow" src="./icons/up-right-dark.png" alt="" /></p>
-              <span class="work-meta">Coming soon</span>
-            </div>
-            <div class="work-row">
-              <span class="work-number">02</span>
-              <p>Second selected project <img class="row-arrow" src="./icons/up-right-dark.png" alt="" /></p>
-              <span class="work-meta">Coming soon</span>
-            </div>
-            <div class="work-row">
-              <span class="work-number">03</span>
-              <p>Notes, ideas &amp; experiments <img class="row-arrow" src="./icons/up-right-dark.png" alt="" /></p>
-              <span class="work-meta">Ongoing</span>
-            </div>
+          <div class="projects-grid">
+            <a class="project-card project-card-wide" href="./project.html?id=overpar">
+              <div class="project-media"><img src="./project-assets/overpar/hero-overpar-home.png" alt="OverPar iPhone application beside golf-course imagery" /></div>
+              <div class="project-card-copy">
+                <div class="project-card-top"><span>01 · Native iOS startup</span><span>In progress</span></div>
+                <h3>OverPar</h3>
+                <p>A privacy-minded golf companion for course mapping, honest GPS distances, resilient rounds, club learning and correctable shot tracing.</p>
+                <div class="project-card-foot"><span>SwiftUI · Golf GPS · Computer vision</span><span class="case-link">View case study <img src="./icons/up-right-dark.png" alt="" /></span></div>
+              </div>
+            </a>
+
+            <a class="project-card" href="./project.html?id=ldfc-bot">
+              <div class="project-media"><img src="./project-assets/ldfc-bot/hero-member-profile-card.png" alt="LDFC Discord bot member profile card" loading="lazy" /></div>
+              <div class="project-card-copy">
+                <div class="project-card-top"><span>02 · Discord product</span><span>Live</span></div>
+                <h3>LDFC Bot</h3>
+                <p>A connected football and music community platform with profiles, reputation, games, moderation and resilient persistence.</p>
+                <div class="project-card-foot"><span>Discord · Python · Community</span><span class="case-link">View case study <img src="./icons/up-right-dark.png" alt="" /></span></div>
+              </div>
+            </a>
+
+            <a class="project-card" href="./project.html?id=ldfc-website">
+              <div class="project-media"><img src="./project-assets/ldfc-website/hero-home-desktop.png" alt="Liam Delap Fan Club website homepage" loading="lazy" /></div>
+              <div class="project-card-copy">
+                <div class="project-card-top"><span>03 · Community platform</span><span>Live</span></div>
+                <h3>LDFC Website</h3>
+                <p>A responsive home for a Discord-native football community, with verified member profiles powered by Supabase and bot data.</p>
+                <div class="project-card-foot"><span>Web · Supabase · OAuth</span><span class="case-link">View case study <img src="./icons/up-right-dark.png" alt="" /></span></div>
+              </div>
+            </a>
           </div>
         </div>
       </section>
