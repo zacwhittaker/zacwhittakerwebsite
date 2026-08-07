@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="The personal portfolio of Zac Whittaker." />
-    <meta name="theme-color" content="#eef1f3" />
+    <meta name="theme-color" content="#15243a" />
     <title>Zac Whittaker — Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,6 +24,9 @@
 
     <main id="top">
       <section class="hero">
+        <div class="hero-kicker" aria-hidden="true">
+          <span>Curiosity</span><i></i><span>Craft</span><i></i><span>Care</span>
+        </div>
         <div class="hero-name" aria-labelledby="hero-title">
           <p class="overline">Hello, I’m</p>
           <h1 id="hero-title">Zac<br />Whittaker<span>.</span></h1>
@@ -35,17 +38,23 @@
           </p>
           <a class="arrow-link" href="#work">View the portfolio <span>↘</span></a>
         </div>
-        <div class="hero-band" aria-hidden="true">
-          <span></span><span></span><span></span><span></span><span></span>
+        <div class="hero-mark" aria-hidden="true">
+          <span class="hero-mark-ring"></span>
+          <span class="hero-mark-core">ZW</span>
+          <span class="hero-mark-orbit">Independent mind · Thoughtful work ·</span>
         </div>
       </section>
+
+      <div class="principles" aria-label="Working principles">
+        <p>Think clearly</p><span>✦</span><p>Make thoughtfully</p><span>✦</span><p>Stay curious</p>
+      </div>
 
       <section class="work" id="work" aria-labelledby="work-title">
         <div class="section-index">01</div>
         <div class="section-main">
           <div class="section-intro">
             <p class="overline">Selected work</p>
-            <h2 id="work-title">The work, without the noise.</h2>
+            <h2 id="work-title">Good work deserves a good story.</h2>
             <p>
               I’m currently putting together the projects I want to show
               properly. They’ll appear here with the story and context they
@@ -54,19 +63,19 @@
           </div>
 
           <div class="work-list">
-            <div class="work-row">
+            <div class="work-row work-row-featured">
               <span class="work-number">01</span>
-              <p>First selected project</p>
+              <p>First selected project <span class="row-arrow">↗</span></p>
               <span class="work-meta">Coming soon</span>
             </div>
             <div class="work-row">
               <span class="work-number">02</span>
-              <p>Second selected project</p>
+              <p>Second selected project <span class="row-arrow">↗</span></p>
               <span class="work-meta">Coming soon</span>
             </div>
             <div class="work-row">
               <span class="work-number">03</span>
-              <p>Notes, ideas &amp; experiments</p>
+              <p>Notes, ideas &amp; experiments <span class="row-arrow">↗</span></p>
               <span class="work-meta">Ongoing</span>
             </div>
           </div>
@@ -78,7 +87,8 @@
         <div class="section-main about-grid">
           <div>
             <p class="overline">About</p>
-            <h2 id="about-title">A little about me.</h2>
+            <h2 id="about-title">Person first.<br />Portfolio second.</h2>
+            <div class="about-stamp" aria-hidden="true"><span>Always<br />curious</span></div>
           </div>
           <div class="about-copy">
             <p class="lead">
@@ -86,9 +96,9 @@
               work with good people.
             </p>
             <p>
-              This site is a growing record of what I’ve worked on and what I’m
-              learning along the way. It’s intentionally simple so the work can
-              take the lead.
+              This site is a growing record of what I’ve worked on, what I’m
+              learning, and the ideas I keep coming back to. The work matters,
+              but so does the thinking and the person behind it.
             </p>
             <dl>
               <div><dt>Based</dt><dd>United Kingdom</dd></div>
