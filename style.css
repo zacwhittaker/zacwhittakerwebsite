@@ -524,7 +524,7 @@ footer p { margin-bottom: 0; }
     transition: background 260ms ease, border-color 260ms ease, box-shadow 260ms ease, transform 420ms cubic-bezier(.2, .8, .2, 1);
   }
   .site-header > .wordmark { position: relative; z-index: 3; }
-  .menu-toggle img { grid-area: 1 / 1; width: 23px; height: 23px; opacity: 1; transition: opacity 180ms ease, transform 420ms cubic-bezier(.2, .8, .2, 1); }
+  .menu-toggle img { display: block; grid-area: 1 / 1; width: 23px; height: 23px; opacity: 1; transition: opacity 180ms ease, transform 420ms cubic-bezier(.2, .8, .2, 1); }
   .menu-close-icon { opacity: 0 !important; transform: rotate(-90deg) scale(.65); }
   .menu-open .menu-toggle { border-color: var(--ice); background: var(--ice); box-shadow: 0 10px 30px rgba(10, 25, 44, .25); transform: rotate(90deg); }
   .menu-open .menu-open-icon { opacity: 0; transform: rotate(90deg) scale(.65); }
@@ -562,6 +562,7 @@ footer p { margin-bottom: 0; }
       radial-gradient(circle at 88% 12%, rgba(52, 95, 131, .34), transparent 32%),
       radial-gradient(circle at 12% 86%, rgba(40, 81, 125, .2), transparent 38%),
       #1d3556;
+    color: var(--ice);
     opacity: 1;
     overflow-y: auto;
     pointer-events: none;
@@ -584,10 +585,10 @@ footer p { margin-bottom: 0; }
   .menu-open .mobile-menu > a:nth-child(2) { transition-delay: 230ms; }
   .menu-open .mobile-project-links { transition-delay: 280ms; }
   .menu-open .mobile-menu > a:last-child { transition-delay: 350ms; }
-  .mobile-menu > a { padding: clamp(13px, 2.4vh, 19px) 0; border-bottom: 1px solid rgba(217, 232, 233, .2); font-size: clamp(1.08rem, 5vw, 1.35rem); }
-  .mobile-project-links { display: grid; gap: 0; padding: clamp(16px, 2.5vh, 22px) 0; border-bottom: 1px solid rgba(217, 232, 233, .2); }
+  .mobile-menu > a { padding: clamp(13px, 2.4vh, 19px) 0; border-bottom: 1px solid rgba(217, 232, 233, .38); color: var(--ice); font-size: clamp(1.08rem, 5vw, 1.35rem); }
+  .mobile-project-links { display: grid; gap: 0; padding: clamp(16px, 2.5vh, 22px) 0; border-bottom: 1px solid rgba(217, 232, 233, .38); color: var(--ice); }
   .mobile-project-links > span { margin-bottom: 10px; color: var(--duck-egg); font-size: .62rem; letter-spacing: .12em; text-transform: uppercase; }
-  .mobile-project-links a { padding: clamp(7px, 1.4vh, 10px) 0; font-size: clamp(.9rem, 4vw, 1rem); }
+  .mobile-project-links a { padding: clamp(7px, 1.4vh, 10px) 0; color: var(--ice); font-size: clamp(.9rem, 4vw, 1rem); }
   main { padding-top: 0; }
   .hero {
     width: 100%;
