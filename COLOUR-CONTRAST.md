@@ -41,9 +41,9 @@ The palette keeps the ink, denim, eucalyptus, sage, duck-egg, and ice character 
 | Charcoal | `#152238` | Deep supporting shade |
 | Denim | `#28517d` | Dark accent surfaces and text on pale surfaces |
 | Slate | `#345f83` | Secondary body text on ice |
-| Eucalyptus | `#496a64` | Mid-tone accent and principles band |
-| Sage | `#a7bdb6` | Light-green section surface |
-| Duck egg | `#b8cfd2` | Light blue supporting surface |
+| Eucalyptus | `#496a64` | Small decorative accent only |
+| Sage | `#a7bdb6` | Small decorative accent only |
+| Duck egg | `#b8cfd2` | About section and light blue supporting surface |
 | Ice | `#d9e8e9` | Lightest blue surface and text on dark colours |
 
 Key implemented pairings:
@@ -51,11 +51,11 @@ Key implemented pairings:
 | Pair | Ratio | Result |
 | --- | ---: | --- |
 | Navy on ice | 11.45:1 | Pass AAA |
-| Navy on sage | 7.28:1 | Pass AAA |
+| Navy on duck egg | 8.86:1 | Pass AAA |
 | Denim on ice | 6.50:1 | Pass AA |
 | Slate on ice | 5.36:1 | Pass AA |
-| Ice on eucalyptus | 4.72:1 | Pass AA |
+| Ice on slate | 5.36:1 | Pass AA |
 | Ice on denim | 6.50:1 | Pass AA |
 | Sage on navy | 7.28:1 | Pass AAA |
 
-Body copy and small labels use pairings of at least 4.5:1. Decorative low-contrast geometry remains permissible because it conveys no information. Keyboard focus rings use denim on pale surfaces and ice on dark surfaces, comfortably exceeding the 3:1 non-text requirement.
+Body copy and small labels use pairings of at least 4.5:1. Green hues are restricted to small decorative accents; they are not used as large section surfaces or functional text colours. Decorative low-contrast geometry remains permissible because it conveys no information. Keyboard focus rings use denim on pale surfaces and ice on dark surfaces, comfortably exceeding the 3:1 non-text requirement.
