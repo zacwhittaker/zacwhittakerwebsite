@@ -31,7 +31,7 @@ const projects = {
     ],
     gallery: [
       ["./project-assets/overpar/overpar-home-iphone.png", "OverPar Home screen in an iPhone simulator"],
-      ["./project-assets/overpar/course-morning-photography.png", "AI-generated morning golf-course artwork used by OverPar"],
+      ["./project-assets/overpar/course-morning-photography.png", "Morning golf-course artwork used by OverPar"],
       ["./project-assets/overpar/overpar-app-icon.png", "OverPar application icon"]
     ],
     links: [["View public repository", "https://github.com/zacwhittaker/OverPar"]]
