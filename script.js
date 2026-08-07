@@ -41,6 +41,30 @@ window.addEventListener(
 window.addEventListener("resize", updateHeader);
 updateHeader();
 
+const menuToggle = document.querySelector(".menu-toggle");
+const mobileMenu = document.querySelector(".mobile-menu");
+
+const closeMobileMenu = () => {
+  menuToggle?.setAttribute("aria-expanded", "false");
+  menuToggle?.setAttribute("aria-label", "Open navigation");
+  document.body.classList.remove("menu-open");
+};
+
+menuToggle?.addEventListener("click", () => {
+  const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
+  menuToggle.setAttribute("aria-expanded", String(!isOpen));
+  menuToggle.setAttribute("aria-label", isOpen ? "Open navigation" : "Close navigation");
+  document.body.classList.toggle("menu-open", !isOpen);
+});
+
+mobileMenu?.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMobileMenu));
+window.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") closeMobileMenu();
+});
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 800) closeMobileMenu();
+});
+
 const revealTargets = document.querySelectorAll(
   ".section-intro, .work-list, .about-grid"
 );

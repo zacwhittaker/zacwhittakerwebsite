@@ -10,15 +10,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./style.css?v=20260807-projects" />
+    <link rel="stylesheet" href="./style.css?v=20260807-navigation-layout" />
   </head>
   <body class="project-page">
     <header class="site-header">
       <a class="wordmark" href="./index.html">Zac Whittaker</a>
       <p class="header-note">Project case study</p>
-      <nav aria-label="Main navigation">
+      <nav class="desktop-nav" aria-label="Main navigation">
         <a href="./index.html#work">Work</a>
+        <div class="nav-projects">
+          <button class="nav-projects-trigger" type="button" aria-haspopup="true">Case studies <img src="./icons/expand.png" alt="" /></button>
+          <div class="nav-projects-menu">
+            <a href="./project.html?id=overpar"><span>01</span>OverPar</a>
+            <a href="./project.html?id=ldfc-bot"><span>02</span>LDFC Bot</a>
+            <a href="./project.html?id=ldfc-website"><span>03</span>LDFC Website</a>
+          </div>
+        </div>
         <a href="./index.html#about">About</a>
+        <a href="./index.html#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation">
+        <img class="menu-open-icon" src="./icons/menu.png" alt="" />
+        <img class="menu-close-icon" src="./icons/close.png" alt="" />
+      </button>
+      <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation">
+        <a href="./index.html#about">About</a>
+        <a href="./index.html#work">Selected work</a>
+        <div class="mobile-project-links">
+          <span>Case studies</span>
+          <a href="./project.html?id=overpar">01 · OverPar</a>
+          <a href="./project.html?id=ldfc-bot">02 · LDFC Bot</a>
+          <a href="./project.html?id=ldfc-website">03 · LDFC Website</a>
+        </div>
         <a href="./index.html#contact">Contact</a>
       </nav>
     </header>
@@ -29,7 +52,7 @@
 
     <footer>
       <p>© <span id="year">2026</span> Zac Whittaker</p>
-      <p>Made with care · Icons by <a href="https://icons8.com" rel="noreferrer">Icons8</a> (<a href="https://icons8.com/icons/set/arrow" rel="noreferrer">arrows</a>)</p>
+      <p>Made with care · Icons by <a href="https://icons8.com" rel="noreferrer">Icons8</a> (<a href="https://icons8.com/icons/set/arrow" rel="noreferrer">arrows</a>, <a href="https://icons8.com/icons/set/menu" rel="noreferrer">menu</a>)</p>
       <a class="back-to-top" href="#project-content">Back to top <img class="footer-icon" src="./icons/up.png" alt="" /></a>
     </footer>
 

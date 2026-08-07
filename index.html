@@ -17,15 +17,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./style.css?v=20260807-projects" />
+    <link rel="stylesheet" href="./style.css?v=20260807-navigation-layout" />
   </head>
-  <body>
+  <body class="home-page">
     <header class="site-header">
       <a class="wordmark" href="#top">Zac Whittaker</a>
       <p class="header-note">Personal portfolio</p>
-      <nav aria-label="Main navigation">
+      <nav class="desktop-nav" aria-label="Main navigation">
         <a href="#work">Work</a>
+        <div class="nav-projects">
+          <button class="nav-projects-trigger" type="button" aria-haspopup="true">Case studies <img src="./icons/expand.png" alt="" /></button>
+          <div class="nav-projects-menu">
+            <a href="./project.html?id=overpar"><span>01</span>OverPar</a>
+            <a href="./project.html?id=ldfc-bot"><span>02</span>LDFC Bot</a>
+            <a href="./project.html?id=ldfc-website"><span>03</span>LDFC Website</a>
+          </div>
+        </div>
         <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation">
+        <img class="menu-open-icon" src="./icons/menu.png" alt="" />
+        <img class="menu-close-icon" src="./icons/close.png" alt="" />
+      </button>
+      <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation">
+        <a href="#about">About</a>
+        <a href="#work">Selected work</a>
+        <div class="mobile-project-links">
+          <span>Case studies</span>
+          <a href="./project.html?id=overpar">01 · OverPar</a>
+          <a href="./project.html?id=ldfc-bot">02 · LDFC Bot</a>
+          <a href="./project.html?id=ldfc-website">03 · LDFC Website</a>
+        </div>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -57,8 +80,40 @@
         <p>Think clearly</p><img class="separator-icon" src="./icons/sparkling.png" alt="" /><p>Make thoughtfully</p><img class="separator-icon" src="./icons/sparkling.png" alt="" /><p>Stay curious</p>
       </div>
 
-      <section class="work" id="work" aria-labelledby="work-title">
+      <section class="about" id="about" aria-labelledby="about-title">
         <div class="section-index">01</div>
+        <div class="section-main about-grid">
+          <div>
+            <p class="overline">About</p>
+            <h2 id="about-title">Product thinking. Design craft. Working software.</h2>
+          </div>
+          <div class="about-copy">
+            <p class="lead">
+              I’m Zac, a UK-based product designer and developer building
+              thoughtful digital products across web, native iOS and community platforms.
+            </p>
+            <p>
+              I work from early product direction through interface design and
+              implementation, using Codex throughout the process. I care about
+              clear thinking, dependable systems and details that make software
+              feel considered rather than generic.
+            </p>
+            <div class="cv-summary" aria-label="Professional summary">
+              <div><span>Role</span><strong>Product designer &amp; developer</strong></div>
+              <div><span>Focus</span><strong>Web · iOS · community products</strong></div>
+              <div><span>Approach</span><strong>AI-assisted · detail-led</strong></div>
+            </div>
+            <dl>
+              <div><dt>Based</dt><dd>United Kingdom</dd></div>
+              <div><dt>Currently</dt><dd>Building independent products</dd></div>
+              <div><dt>Open to</dt><dd>Good ideas &amp; new opportunities</dd></div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="work" id="work" aria-labelledby="work-title">
+        <div class="section-index">02</div>
         <div class="section-main">
           <div class="section-intro">
             <p class="overline">Selected work</p>
@@ -104,32 +159,6 @@
         </div>
       </section>
 
-      <section class="about" id="about" aria-labelledby="about-title">
-        <div class="section-index">02</div>
-        <div class="section-main about-grid">
-          <div>
-            <p class="overline">About</p>
-            <h2 id="about-title">Person first.<br />Portfolio second.</h2>
-          </div>
-          <div class="about-copy">
-            <p class="lead">
-              I’m Zac. I’m curious, thoughtful, and interested in doing good
-              work with good people.
-            </p>
-            <p>
-              This site is a growing record of what I’ve worked on, what I’m
-              learning, and the ideas I keep coming back to. The work matters,
-              but so does the thinking and the person behind it.
-            </p>
-            <dl>
-              <div><dt>Based</dt><dd>United Kingdom</dd></div>
-              <div><dt>Portfolio</dt><dd>In progress</dd></div>
-              <div><dt>Interested in</dt><dd>Good ideas &amp; new opportunities</dd></div>
-            </dl>
-          </div>
-        </div>
-      </section>
-
       <section class="contact" id="contact">
         <p class="overline">Have something in mind?</p>
         <h2>Let’s talk<span>.</span></h2>
@@ -139,7 +168,7 @@
 
     <footer>
       <p>© <span id="year">2026</span> Zac Whittaker</p>
-      <p>Made with care · Icons by <a href="https://icons8.com" rel="noreferrer">Icons8</a> (<a href="https://icons8.com/icons/set/arrow" rel="noreferrer">arrows</a>, <a href="https://icons8.com/icons/set/sparkling" rel="noreferrer">sparkle</a>)</p>
+      <p>Made with care · Icons by <a href="https://icons8.com" rel="noreferrer">Icons8</a> (<a href="https://icons8.com/icons/set/arrow" rel="noreferrer">arrows</a>, <a href="https://icons8.com/icons/set/sparkling" rel="noreferrer">sparkle</a>, <a href="https://icons8.com/icons/set/menu" rel="noreferrer">menu</a>)</p>
       <a class="back-to-top" href="#top">Back to top <img class="footer-icon" src="./icons/up.png" alt="" /></a>
     </footer>
     <script type="module" src="./script.js"></script>
