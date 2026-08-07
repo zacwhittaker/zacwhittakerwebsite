@@ -101,7 +101,7 @@ p, h1, h2, dl, dd { margin-top: 0; }
 nav { display: flex; gap: 30px; font-size: .8rem; }
 nav a, footer a { transition: opacity 180ms ease; }
 nav a:hover, footer a:hover { opacity: .5; }
-main { padding-top: 81px; }
+main { padding-top: 0; }
 
 .hero {
   position: relative;
@@ -317,7 +317,7 @@ footer p { margin-bottom: 0; }
   .header-note { display: none; }
   nav { gap: 18px; font-size: .74rem; }
   nav a:nth-child(2) { display: none; }
-  main { padding-top: 67px; }
+  main { padding-top: 0; }
   .hero {
     width: 100%;
     min-height: 690px;
