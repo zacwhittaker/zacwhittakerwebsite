@@ -410,7 +410,7 @@ footer p { margin-bottom: 0; }
 .footer-icon { width: 13px; height: 13px; object-fit: contain; }
 
 /* Project case studies */
-.project-page { background: var(--ice); }
+.project-page { background: var(--navy); }
 .case-study { padding: 0; }
 .case-loading, .case-error { min-height: 100vh; padding: 180px max(32px, calc((100vw - 1320px) / 2)); background: var(--navy); color: var(--ice); }
 .case-hero {

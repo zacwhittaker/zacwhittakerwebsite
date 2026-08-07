@@ -23,6 +23,7 @@ Every page must include all of the following entries, using the current site nav
 
 - Load the shared `style.css` file.
 - Keep both `html` and `body` backgrounds set to `var(--navy)`.
+- Any page-specific class placed on `<body>` must also keep `background: var(--navy)`. Safari samples the body canvas behind its browser chrome; a light page-level background will create a light top or bottom area even when the first visible section is navy.
 - Keep `html` and `body` at a minimum height of `100%`/`100dvh`.
 - Do not introduce a white or light-grey root background, loading screen, overscroll area or safe-area filler.
 - Use `env(safe-area-inset-top)` and `env(safe-area-inset-bottom)` where fixed elements touch viewport edges.
@@ -32,6 +33,7 @@ Every page must include all of the following entries, using the current site nav
 ## Before publishing
 
 - Compare the new page head with `index.html`; do not use a shortened version.
+- Inspect every selector targeting the page's `<body>` class and confirm none overrides the navy canvas.
 - Test normal and private Safari tabs on a current iPhone.
 - Check the top status area, overscroll at the top, and the area behind the bottom toolbar.
 - Test both light and dark device appearance settings.
