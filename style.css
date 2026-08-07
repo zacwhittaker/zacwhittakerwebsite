@@ -152,7 +152,9 @@ main { padding-top: 0; }
   position: relative;
   display: grid;
   width: 100%;
-  min-height: min(850px, calc(100vh - 20px));
+  min-height: 100vh;
+  min-height: 100svh;
+  min-height: 100dvh;
   grid-template-columns: 1.35fr .65fr;
   align-items: end;
   gap: 70px;
@@ -515,10 +517,10 @@ footer p { margin-bottom: 0; }
     width: 42px;
     height: 42px;
     padding: 9px;
-    border: 1px solid rgba(217, 232, 233, .42);
+    border: 1px solid rgba(184, 207, 210, .58);
     border-radius: var(--radius-small);
     place-items: center;
-    background: var(--slate);
+    background: var(--navy);
     box-shadow: 0 8px 22px rgba(10, 25, 44, .18);
     cursor: pointer;
     transition: background 260ms ease, border-color 260ms ease, box-shadow 260ms ease, transform 420ms cubic-bezier(.2, .8, .2, 1);
@@ -592,7 +594,9 @@ footer p { margin-bottom: 0; }
   main { padding-top: 0; }
   .hero {
     width: 100%;
-    min-height: 690px;
+    min-height: 100vh;
+    min-height: 100svh;
+    min-height: 100dvh;
     grid-template-columns: 1fr;
     align-content: end;
     gap: 42px;
