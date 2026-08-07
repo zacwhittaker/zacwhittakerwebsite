@@ -35,18 +35,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-body::before {
-  position: absolute;
-  inset: 0;
-  z-index: -2;
-  pointer-events: none;
-  background-image: linear-gradient(rgba(23, 42, 70, .055) 1px, transparent 1px), linear-gradient(90deg, rgba(23, 42, 70, .055) 1px, transparent 1px);
-  background-size: 48px 48px;
-  content: "";
-  -webkit-mask-image: linear-gradient(to bottom, transparent 24%, #000 42%, transparent 78%);
-  mask-image: linear-gradient(to bottom, transparent 24%, #000 42%, transparent 78%);
-}
-
 body::after {
   position: absolute;
   inset: 0;
@@ -267,7 +255,6 @@ h1 span { color: var(--duck-egg); }
   grid-template-columns: minmax(90px, .3fr) 1.7fr;
   margin: 0 auto;
   padding: 145px 0;
-  border-top: 1px solid var(--line);
 }
 .work {
   background: rgba(217, 232, 233, .94);
