@@ -43,11 +43,20 @@ updateHeader();
 
 const menuToggle = document.querySelector(".menu-toggle");
 const mobileMenu = document.querySelector(".mobile-menu");
+const themeColorTags = [...document.querySelectorAll('meta[name="theme-color"]')];
+const defaultThemeColors = themeColorTags.map((tag) => tag.content);
+
+const setMenuTheme = (isOpen) => {
+  themeColorTags.forEach((tag, index) => {
+    tag.content = isOpen ? "#28517d" : defaultThemeColors[index];
+  });
+};
 
 const closeMobileMenu = () => {
   menuToggle?.setAttribute("aria-expanded", "false");
   menuToggle?.setAttribute("aria-label", "Open navigation");
   document.body.classList.remove("menu-open");
+  setMenuTheme(false);
 };
 
 menuToggle?.addEventListener("click", () => {
@@ -55,6 +64,7 @@ menuToggle?.addEventListener("click", () => {
   menuToggle.setAttribute("aria-expanded", String(!isOpen));
   menuToggle.setAttribute("aria-label", isOpen ? "Open navigation" : "Close navigation");
   document.body.classList.toggle("menu-open", !isOpen);
+  setMenuTheme(!isOpen);
 });
 
 mobileMenu?.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMobileMenu));
