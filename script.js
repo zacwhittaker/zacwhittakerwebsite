@@ -48,7 +48,7 @@ const defaultThemeColors = themeColorTags.map((tag) => tag.content);
 
 const setMenuTheme = (isOpen) => {
   themeColorTags.forEach((tag, index) => {
-    tag.content = isOpen ? "#28517d" : defaultThemeColors[index];
+    tag.content = isOpen ? "#1d3556" : defaultThemeColors[index];
   });
 };
 
