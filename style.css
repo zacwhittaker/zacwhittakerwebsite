@@ -186,7 +186,7 @@ h1 span { color: var(--mist); }
   aspect-ratio: 1;
   place-items: center;
 }
-.hero-mark-ring { position: absolute; inset: 0; border: 1px solid rgba(217, 232, 233, .34); box-shadow: inset 0 0 0 18px rgba(145, 168, 161, .1), inset 0 0 0 19px rgba(217, 232, 233, .14); transform: rotate(8deg); }
+.hero-mark-ring { position: absolute; inset: 0; border: 1px solid rgba(217, 232, 233, .34); border-radius: 50%; box-shadow: inset 0 0 0 18px rgba(184, 207, 210, .1), inset 0 0 0 19px rgba(217, 232, 233, .14); }
 .hero-mark-ring::before, .hero-mark-ring::after { position: absolute; content: ""; background: var(--blue-grey); }
 .hero-mark-ring::before { top: 50%; left: -10%; width: 120%; height: 1px; }
 .hero-mark-ring::after { top: -10%; left: 50%; width: 1px; height: 120%; }
@@ -197,13 +197,14 @@ h1 span { color: var(--mist); }
   width: 52%;
   aspect-ratio: 1;
   place-items: center;
-  background: var(--mist);
+  border-radius: 50%;
+  background: var(--duck-egg);
   color: var(--navy);
   font-size: clamp(1.4rem, 2.5vw, 2.3rem);
   font-weight: 600;
   letter-spacing: -.08em;
 }
-.hero-mark-orbit { position: absolute; bottom: -28px; padding-left: 18px; border-left: 24px solid var(--eucalyptus); color: var(--mist); font-size: .58rem; letter-spacing: .18em; text-transform: uppercase; }
+.hero-mark-orbit { position: absolute; bottom: -28px; color: var(--duck-egg); font-size: .58rem; letter-spacing: .18em; text-transform: uppercase; }
 .principles {
   display: flex;
   align-items: center;
