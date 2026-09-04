@@ -1,0 +1,532 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zac Whittaker//Paulet Sixth Form Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:A1 → B → A2 → B\; holidays pause the cycle. Lessons aft
+ er Easter are provisional through 28 May 2027. Exam notices are all-day un
+ til school start times are known. Updated by subscription.
+X-WR-CALNAME:Paulet — Personal Development
+REFRESH-INTERVAL:1:00:00
+URL:https://zw08.co.uk/calendars/personal-development.ics
+X-PUBLISHED-TTL:PT1H
+X-WR-TIMEZONE:Europe/London
+BEGIN:VTIMEZONE
+TZID:Europe/London
+COMMENT:This timezone only works from 2026-01-01 to 2028-01-01.
+BEGIN:STANDARD
+DTSTART:20260101T000000
+TZNAME:GMT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260329T020000
+RDATE:20270328T020000
+TZNAME:BST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20261025T020000
+RDATE:20271031T020000
+TZNAME:GMT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20260908T083000
+DTEND;TZID=Europe/London:20260908T092000
+DTSTAMP:20260904T092919Z
+UID:2026-09-08-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
+  Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20260915T083000
+DTEND;TZID=Europe/London:20260915T092000
+DTSTAMP:20260904T092919Z
+UID:2026-09-15-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week A2. Paulet High School & Sixth Form College.\nForm: 13ADS
+ . Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20260922T083000
+DTEND;TZID=Europe/London:20260922T092000
+DTSTAMP:20260904T092919Z
+UID:2026-09-22-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
+  Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20260929T083000
+DTEND;TZID=Europe/London:20260929T092000
+DTSTAMP:20260904T092919Z
+UID:2026-09-29-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week A1. Paulet High School & Sixth Form College.\nForm: 13ADS
+ . Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20261006T083000
+DTEND;TZID=Europe/London:20261006T092000
+DTSTAMP:20260904T092919Z
+UID:2026-10-06-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
+  Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20261013T083000
+DTEND;TZID=Europe/London:20261013T092000
+DTSTAMP:20260904T092919Z
+UID:2026-10-13-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week A2. Paulet High School & Sixth Form College.\nForm: 13ADS
+ . Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20261020T083000
+DTEND;TZID=Europe/London:20261020T092000
+DTSTAMP:20260904T092919Z
+UID:2026-10-20-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
+  Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20261103T083000
+DTEND;TZID=Europe/London:20261103T092000
+DTSTAMP:20260904T092919Z
+UID:2026-11-03-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week A1. Paulet High School & Sixth Form College.\nForm: 13ADS
+ . Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20261110T083000
+DTEND;TZID=Europe/London:20261110T092000
+DTSTAMP:20260904T092919Z
+UID:2026-11-10-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
+  Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20261117T083000
+DTEND;TZID=Europe/London:20261117T092000
+DTSTAMP:20260904T092919Z
+UID:2026-11-17-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week A2. Paulet High School & Sixth Form College.\nForm: 13ADS
+ . Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20261124T083000
+DTEND;TZID=Europe/London:20261124T092000
+DTSTAMP:20260904T092919Z
+UID:2026-11-24-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
+  Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20261201T083000
+DTEND;TZID=Europe/London:20261201T092000
+DTSTAMP:20260904T092919Z
+UID:2026-12-01-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week A1. Paulet High School & Sixth Form College.\nForm: 13ADS
+ . Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20261208T083000
+DTEND;TZID=Europe/London:20261208T092000
+DTSTAMP:20260904T092919Z
+UID:2026-12-08-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
+  Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20261215T083000
+DTEND;TZID=Europe/London:20261215T092000
+DTSTAMP:20260904T092919Z
+UID:2026-12-15-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week A2. Paulet High School & Sixth Form College.\nForm: 13ADS
+ . Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270105T083000
+DTEND;TZID=Europe/London:20270105T092000
+DTSTAMP:20260904T092919Z
+UID:2027-01-05-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
+  Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270112T083000
+DTEND;TZID=Europe/London:20270112T092000
+DTSTAMP:20260904T092919Z
+UID:2027-01-12-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week A1. Paulet High School & Sixth Form College.\nForm: 13ADS
+ . Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270119T083000
+DTEND;TZID=Europe/London:20270119T092000
+DTSTAMP:20260904T092919Z
+UID:2027-01-19-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
+  Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270126T083000
+DTEND;TZID=Europe/London:20270126T092000
+DTSTAMP:20260904T092919Z
+UID:2027-01-26-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week A2. Paulet High School & Sixth Form College.\nForm: 13ADS
+ . Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270202T083000
+DTEND;TZID=Europe/London:20270202T092000
+DTSTAMP:20260904T092919Z
+UID:2027-02-02-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
+  Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270209T083000
+DTEND;TZID=Europe/London:20270209T092000
+DTSTAMP:20260904T092919Z
+UID:2027-02-09-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week A1. Paulet High School & Sixth Form College.\nForm: 13ADS
+ . Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270223T083000
+DTEND;TZID=Europe/London:20270223T092000
+DTSTAMP:20260904T092919Z
+UID:2027-02-23-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
+  Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270302T083000
+DTEND;TZID=Europe/London:20270302T092000
+DTSTAMP:20260904T092919Z
+UID:2027-03-02-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week A2. Paulet High School & Sixth Form College.\nForm: 13ADS
+ . Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270309T083000
+DTEND;TZID=Europe/London:20270309T092000
+DTSTAMP:20260904T092919Z
+UID:2027-03-09-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
+  Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270316T083000
+DTEND;TZID=Europe/London:20270316T092000
+DTSTAMP:20260904T092919Z
+UID:2027-03-16-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week A1. Paulet High School & Sixth Form College.\nForm: 13ADS
+ . Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270323T083000
+DTEND;TZID=Europe/London:20270323T092000
+DTSTAMP:20260904T092919Z
+UID:2027-03-23-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
+  Tutor: Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270413T083000
+DTEND;TZID=Europe/London:20270413T092000
+DTSTAMP:20260904T092919Z
+UID:2027-04-13-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week A2. Paulet High School & Sixth Form College.\nProvisional
+ : Year 13 lesson/study-leave finish date is not confirmed. Scheduled throu
+ gh the final listed exam on 28 May as a placeholder.\nForm: 13ADS. Tutor: 
+ Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270420T083000
+DTEND;TZID=Europe/London:20270420T092000
+DTSTAMP:20260904T092919Z
+UID:2027-04-20-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nProvisional:
+  Year 13 lesson/study-leave finish date is not confirmed. Scheduled throug
+ h the final listed exam on 28 May as a placeholder.\nForm: 13ADS. Tutor: M
+ r A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270427T083000
+DTEND;TZID=Europe/London:20270427T092000
+DTSTAMP:20260904T092919Z
+UID:2027-04-27-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week A1. Paulet High School & Sixth Form College.\nProvisional
+ : Year 13 lesson/study-leave finish date is not confirmed. Scheduled throu
+ gh the final listed exam on 28 May as a placeholder.\nForm: 13ADS. Tutor: 
+ Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270504T083000
+DTEND;TZID=Europe/London:20270504T092000
+DTSTAMP:20260904T092919Z
+UID:2027-05-04-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nProvisional:
+  Year 13 lesson/study-leave finish date is not confirmed. Scheduled throug
+ h the final listed exam on 28 May as a placeholder.\nForm: 13ADS. Tutor: M
+ r A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270511T083000
+DTEND;TZID=Europe/London:20270511T092000
+DTSTAMP:20260904T092919Z
+UID:2027-05-11-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week A2. Paulet High School & Sixth Form College.\nProvisional
+ : Year 13 lesson/study-leave finish date is not confirmed. Scheduled throu
+ gh the final listed exam on 28 May as a placeholder.\nForm: 13ADS. Tutor: 
+ Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270518T083000
+DTEND;TZID=Europe/London:20270518T092000
+DTSTAMP:20260904T092919Z
+UID:2027-05-18-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nProvisional:
+  Year 13 lesson/study-leave finish date is not confirmed. Scheduled throug
+ h the final listed exam on 28 May as a placeholder.\nForm: 13ADS. Tutor: M
+ r A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personal Development
+DTSTART;TZID=Europe/London:20270525T083000
+DTEND;TZID=Europe/London:20270525T092000
+DTSTAMP:20260904T092919Z
+UID:2027-05-25-form@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Form
+DESCRIPTION:Week A1. Paulet High School & Sixth Form College.\nProvisional
+ : Year 13 lesson/study-leave finish date is not confirmed. Scheduled throu
+ gh the final listed exam on 28 May as a placeholder.\nForm: 13ADS. Tutor: 
+ Mr A Satchwell.
+LAST-MODIFIED:20260904T092919Z
+LOCATION:SF2\, Paulet High School & Sixth Form College
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

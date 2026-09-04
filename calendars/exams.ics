@@ -1,0 +1,94 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zac Whittaker//Paulet Sixth Form Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:A1 → B → A2 → B\; holidays pause the cycle. Lessons aft
+ er Easter are provisional through 28 May 2027. Exam notices are all-day un
+ til school start times are known. Updated by subscription.
+X-WR-CALNAME:Paulet — Exams
+REFRESH-INTERVAL:1:00:00
+URL:https://zw08.co.uk/calendars/exams.ics
+X-PUBLISHED-TTL:PT1H
+X-WR-TIMEZONE:Europe/London
+BEGIN:VTIMEZONE
+TZID:Europe/London
+COMMENT:This timezone only works from 2026-01-01 to 2028-01-01.
+BEGIN:STANDARD
+DTSTART:20260101T000000
+TZNAME:GMT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260329T020000
+RDATE:20270328T020000
+TZNAME:BST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20261025T020000
+RDATE:20271031T020000
+TZNAME:GMT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Business Unit 3 exam — morning
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+DTSTAMP:20260904T092919Z
+UID:exam-2027-business-unit-3@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Exam
+DESCRIPTION:Pearson BTEC: Personal and Business Finance\nPaper/unit: 31463
+ H\nDuration: 2 hours\nPublished date and session confirmed\; exact school 
+ start time and venue TBC. This is an all-day notice\, NOT an all-day exam.
+  No additional resit has been assumed.\nSource: https://qualifications.pea
+ rson.com/content/dam/pdf/Support/Examination-timetables/btec-winter-2027-f
+ inal-timetable.xlsx
+LAST-MODIFIED:20260904T092919Z
+LOCATION:Paulet High School & Sixth Form College — exam room TBC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IT Unit 3: Cyber Security exam — morning
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+DTSTAMP:20260904T092919Z
+UID:exam-2027-it-unit-3@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Exam
+DESCRIPTION:OCR Cambridge Technicals Level 3\nPaper/unit: Unit 3\nDuration
+ : 1 hour\nPublished date and session confirmed\; exact school start time a
+ nd venue TBC. This is an all-day notice\, NOT an all-day exam. No addition
+ al resit has been assumed.\nSource: https://www.ocr.org.uk/Images/758152-j
+ anuary-2027-final-exam-timetable-cambridge-technicals.pdf
+LAST-MODIFIED:20260904T092919Z
+LOCATION:Paulet High School & Sixth Form College — exam room TBC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Criminology Unit 4 exam — afternoon
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+DTSTAMP:20260904T092919Z
+UID:exam-2027-criminology-unit-4@calendar.zw08.co.uk
+SEQUENCE:0
+CATEGORIES:Exam
+DESCRIPTION:WJEC: Crime and Punishment\nPaper/unit: 4543UC0-1 / 4543UD0-1 
+ (onscreen/paper to be confirmed)\nDuration: 1 hour 30 minutes\nPublished d
+ ate and session confirmed\; exact school start time and venue TBC. This is
+  an all-day notice\, NOT an all-day exam. No additional resit has been ass
+ umed.\nSource: https://www.wjec.co.uk/media/ehrdglo0/summer-2027-el-plus-l
+ 1-2-3-final-version.pdf
+LAST-MODIFIED:20260904T092919Z
+LOCATION:Paulet High School & Sixth Form College — exam room TBC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
