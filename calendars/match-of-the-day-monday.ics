@@ -1,0 +1,502 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zac Whittaker//Paulet Sixth Form Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:A1 → B → A2 → B\; holidays pause the cycle. Lessons aft
+ er Easter are provisional through 28 May 2027. Exam notices are all-day un
+ til school start times are known. Updated by subscription.
+X-WR-CALNAME:Paulet — Match of The Day Monday
+REFRESH-INTERVAL:1:00:00
+URL:https://zw08.co.uk/calendars/match-of-the-day-monday.ics
+X-PUBLISHED-TTL:PT1H
+X-WR-TIMEZONE:Europe/London
+BEGIN:VTIMEZONE
+TZID:Europe/London
+COMMENT:This timezone only works from 2026-01-01 to 2028-01-01.
+BEGIN:STANDARD
+DTSTART:20260101T000000
+TZNAME:GMT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260329T020000
+RDATE:20270328T020000
+TZNAME:BST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20261025T020000
+RDATE:20271031T020000
+TZNAME:GMT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20260907T090000
+DTEND;TZID=Europe/London:20260907T095900
+DTSTAMP:20260904T212756Z
+UID:2026-09-07-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nPeriod 1.\nR
+ eplaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20260914T090000
+DTEND;TZID=Europe/London:20260914T095900
+DTSTAMP:20260904T212756Z
+UID:2026-09-14-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week A2. Paulet High School & Sixth Form College.\nPeriod 1.\n
+ Replaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20260921T090000
+DTEND;TZID=Europe/London:20260921T095900
+DTSTAMP:20260904T212756Z
+UID:2026-09-21-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nPeriod 1.\nR
+ eplaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20260928T090000
+DTEND;TZID=Europe/London:20260928T095900
+DTSTAMP:20260904T212756Z
+UID:2026-09-28-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week A1. Paulet High School & Sixth Form College.\nPeriod 1.\n
+ Replaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20261005T090000
+DTEND;TZID=Europe/London:20261005T095900
+DTSTAMP:20260904T212756Z
+UID:2026-10-05-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nPeriod 1.\nR
+ eplaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20261012T090000
+DTEND;TZID=Europe/London:20261012T095900
+DTSTAMP:20260904T212756Z
+UID:2026-10-12-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week A2. Paulet High School & Sixth Form College.\nPeriod 1.\n
+ Replaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20261019T090000
+DTEND;TZID=Europe/London:20261019T095900
+DTSTAMP:20260904T212756Z
+UID:2026-10-19-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nPeriod 1.\nR
+ eplaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20261102T090000
+DTEND;TZID=Europe/London:20261102T095900
+DTSTAMP:20260904T212756Z
+UID:2026-11-02-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week A1. Paulet High School & Sixth Form College.\nPeriod 1.\n
+ Replaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20261109T090000
+DTEND;TZID=Europe/London:20261109T095900
+DTSTAMP:20260904T212756Z
+UID:2026-11-09-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nPeriod 1.\nR
+ eplaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20261116T090000
+DTEND;TZID=Europe/London:20261116T095900
+DTSTAMP:20260904T212756Z
+UID:2026-11-16-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week A2. Paulet High School & Sixth Form College.\nPeriod 1.\n
+ Replaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20261123T090000
+DTEND;TZID=Europe/London:20261123T095900
+DTSTAMP:20260904T212756Z
+UID:2026-11-23-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nPeriod 1.\nR
+ eplaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20261130T090000
+DTEND;TZID=Europe/London:20261130T095900
+DTSTAMP:20260904T212756Z
+UID:2026-11-30-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week A1. Paulet High School & Sixth Form College.\nPeriod 1.\n
+ Replaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20261207T090000
+DTEND;TZID=Europe/London:20261207T095900
+DTSTAMP:20260904T212756Z
+UID:2026-12-07-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nPeriod 1.\nR
+ eplaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20261214T090000
+DTEND;TZID=Europe/London:20261214T095900
+DTSTAMP:20260904T212756Z
+UID:2026-12-14-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week A2. Paulet High School & Sixth Form College.\nPeriod 1.\n
+ Replaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20270111T090000
+DTEND;TZID=Europe/London:20270111T095900
+DTSTAMP:20260904T212756Z
+UID:2027-01-11-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week A1. Paulet High School & Sixth Form College.\nExam day: n
+ ormal timetable shown for reference\; attendance around your exam needs sc
+ hool confirmation.\nPeriod 1.\nReplaces the first free period every Monday
+ .\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20270118T090000
+DTEND;TZID=Europe/London:20270118T095900
+DTSTAMP:20260904T212756Z
+UID:2027-01-18-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nPeriod 1.\nR
+ eplaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20270125T090000
+DTEND;TZID=Europe/London:20270125T095900
+DTSTAMP:20260904T212756Z
+UID:2027-01-25-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week A2. Paulet High School & Sixth Form College.\nPeriod 1.\n
+ Replaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20270201T090000
+DTEND;TZID=Europe/London:20270201T095900
+DTSTAMP:20260904T212756Z
+UID:2027-02-01-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nPeriod 1.\nR
+ eplaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20270208T090000
+DTEND;TZID=Europe/London:20270208T095900
+DTSTAMP:20260904T212756Z
+UID:2027-02-08-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week A1. Paulet High School & Sixth Form College.\nPeriod 1.\n
+ Replaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20270222T090000
+DTEND;TZID=Europe/London:20270222T095900
+DTSTAMP:20260904T212756Z
+UID:2027-02-22-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nPeriod 1.\nR
+ eplaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20270301T090000
+DTEND;TZID=Europe/London:20270301T095900
+DTSTAMP:20260904T212756Z
+UID:2027-03-01-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week A2. Paulet High School & Sixth Form College.\nPeriod 1.\n
+ Replaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20270308T090000
+DTEND;TZID=Europe/London:20270308T095900
+DTSTAMP:20260904T212756Z
+UID:2027-03-08-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nPeriod 1.\nR
+ eplaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20270315T090000
+DTEND;TZID=Europe/London:20270315T095900
+DTSTAMP:20260904T212756Z
+UID:2027-03-15-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week A1. Paulet High School & Sixth Form College.\nPeriod 1.\n
+ Replaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20270322T090000
+DTEND;TZID=Europe/London:20270322T095900
+DTSTAMP:20260904T212756Z
+UID:2027-03-22-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nPeriod 1.\nR
+ eplaces the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20270412T090000
+DTEND;TZID=Europe/London:20270412T095900
+DTSTAMP:20260904T212756Z
+UID:2027-04-12-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week A2. Paulet High School & Sixth Form College.\nProvisional
+ : Year 13 lesson/study-leave finish date is not confirmed. Scheduled throu
+ gh the final listed exam on 28 May as a placeholder.\nPeriod 1.\nReplaces 
+ the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20270419T090000
+DTEND;TZID=Europe/London:20270419T095900
+DTSTAMP:20260904T212756Z
+UID:2027-04-19-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nProvisional:
+  Year 13 lesson/study-leave finish date is not confirmed. Scheduled throug
+ h the final listed exam on 28 May as a placeholder.\nPeriod 1.\nReplaces t
+ he first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20270426T090000
+DTEND;TZID=Europe/London:20270426T095900
+DTSTAMP:20260904T212756Z
+UID:2027-04-26-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week A1. Paulet High School & Sixth Form College.\nProvisional
+ : Year 13 lesson/study-leave finish date is not confirmed. Scheduled throu
+ gh the final listed exam on 28 May as a placeholder.\nPeriod 1.\nReplaces 
+ the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20270510T090000
+DTEND;TZID=Europe/London:20270510T095900
+DTSTAMP:20260904T212756Z
+UID:2027-05-10-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week A2. Paulet High School & Sixth Form College.\nProvisional
+ : Year 13 lesson/study-leave finish date is not confirmed. Scheduled throu
+ gh the final listed exam on 28 May as a placeholder.\nPeriod 1.\nReplaces 
+ the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20270517T090000
+DTEND;TZID=Europe/London:20270517T095900
+DTSTAMP:20260904T212756Z
+UID:2027-05-17-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nProvisional:
+  Year 13 lesson/study-leave finish date is not confirmed. Scheduled throug
+ h the final listed exam on 28 May as a placeholder.\nPeriod 1.\nReplaces t
+ he first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Match of The Day Monday
+DTSTART;TZID=Europe/London:20270524T090000
+DTEND;TZID=Europe/London:20270524T095900
+DTSTAMP:20260904T212756Z
+UID:2027-05-24-p1@calendar.zw08.co.uk
+SEQUENCE:1
+CATEGORIES:Match of The Day Monday
+DESCRIPTION:Week A1. Paulet High School & Sixth Form College.\nProvisional
+ : Year 13 lesson/study-leave finish date is not confirmed. Scheduled throu
+ gh the final listed exam on 28 May as a placeholder.\nPeriod 1.\nReplaces 
+ the first free period every Monday.\nNot with Sam.
+LAST-MODIFIED:20260904T212756Z
+LOCATION:Not with Sam
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

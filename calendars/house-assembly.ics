@@ -38,16 +38,16 @@ END:VTIMEZONE
 BEGIN:VEVENT
 SUMMARY:House Assembly — Vulcan
 DTSTART;TZID=Europe/London:20260911T083000
-DTEND;TZID=Europe/London:20260911T090000
-DTSTAMP:20260904T092919Z
+DTEND;TZID=Europe/London:20260911T085900
+DTSTAMP:20260904T212756Z
 UID:2026-09-11-form@calendar.zw08.co.uk
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Assembly
 DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
   Tutor: Mr A Satchwell.\nAssembly day follows the handwritten timetable no
  te. The 08:30–09:00 slot is provisional\, replacing mentoring\; exact ti
  me and venue need confirmation.
-LAST-MODIFIED:20260904T092919Z
+LAST-MODIFIED:20260904T212756Z
 LOCATION:Paulet High School & Sixth Form College — assembly venue TBC
 STATUS:TENTATIVE
 TRANSP:OPAQUE
@@ -55,16 +55,16 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:House Assembly — Vulcan
 DTSTART;TZID=Europe/London:20260925T083000
-DTEND;TZID=Europe/London:20260925T090000
-DTSTAMP:20260904T092919Z
+DTEND;TZID=Europe/London:20260925T085900
+DTSTAMP:20260904T212756Z
 UID:2026-09-25-form@calendar.zw08.co.uk
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Assembly
 DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
   Tutor: Mr A Satchwell.\nAssembly day follows the handwritten timetable no
  te. The 08:30–09:00 slot is provisional\, replacing mentoring\; exact ti
  me and venue need confirmation.
-LAST-MODIFIED:20260904T092919Z
+LAST-MODIFIED:20260904T212756Z
 LOCATION:Paulet High School & Sixth Form College — assembly venue TBC
 STATUS:TENTATIVE
 TRANSP:OPAQUE
@@ -72,16 +72,16 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:House Assembly — Vulcan
 DTSTART;TZID=Europe/London:20261009T083000
-DTEND;TZID=Europe/London:20261009T090000
-DTSTAMP:20260904T092919Z
+DTEND;TZID=Europe/London:20261009T085900
+DTSTAMP:20260904T212756Z
 UID:2026-10-09-form@calendar.zw08.co.uk
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Assembly
 DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
   Tutor: Mr A Satchwell.\nAssembly day follows the handwritten timetable no
  te. The 08:30–09:00 slot is provisional\, replacing mentoring\; exact ti
  me and venue need confirmation.
-LAST-MODIFIED:20260904T092919Z
+LAST-MODIFIED:20260904T212756Z
 LOCATION:Paulet High School & Sixth Form College — assembly venue TBC
 STATUS:TENTATIVE
 TRANSP:OPAQUE
@@ -89,16 +89,16 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:House Assembly — Vulcan
 DTSTART;TZID=Europe/London:20261023T083000
-DTEND;TZID=Europe/London:20261023T090000
-DTSTAMP:20260904T092919Z
+DTEND;TZID=Europe/London:20261023T085900
+DTSTAMP:20260904T212756Z
 UID:2026-10-23-form@calendar.zw08.co.uk
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Assembly
 DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
   Tutor: Mr A Satchwell.\nAssembly day follows the handwritten timetable no
  te. The 08:30–09:00 slot is provisional\, replacing mentoring\; exact ti
  me and venue need confirmation.
-LAST-MODIFIED:20260904T092919Z
+LAST-MODIFIED:20260904T212756Z
 LOCATION:Paulet High School & Sixth Form College — assembly venue TBC
 STATUS:TENTATIVE
 TRANSP:OPAQUE
@@ -106,16 +106,16 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:House Assembly — Vulcan
 DTSTART;TZID=Europe/London:20261113T083000
-DTEND;TZID=Europe/London:20261113T090000
-DTSTAMP:20260904T092919Z
+DTEND;TZID=Europe/London:20261113T085900
+DTSTAMP:20260904T212756Z
 UID:2026-11-13-form@calendar.zw08.co.uk
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Assembly
 DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
   Tutor: Mr A Satchwell.\nAssembly day follows the handwritten timetable no
  te. The 08:30–09:00 slot is provisional\, replacing mentoring\; exact ti
  me and venue need confirmation.
-LAST-MODIFIED:20260904T092919Z
+LAST-MODIFIED:20260904T212756Z
 LOCATION:Paulet High School & Sixth Form College — assembly venue TBC
 STATUS:TENTATIVE
 TRANSP:OPAQUE
@@ -123,16 +123,16 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:House Assembly — Vulcan
 DTSTART;TZID=Europe/London:20261211T083000
-DTEND;TZID=Europe/London:20261211T090000
-DTSTAMP:20260904T092919Z
+DTEND;TZID=Europe/London:20261211T085900
+DTSTAMP:20260904T212756Z
 UID:2026-12-11-form@calendar.zw08.co.uk
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Assembly
 DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
   Tutor: Mr A Satchwell.\nAssembly day follows the handwritten timetable no
  te. The 08:30–09:00 slot is provisional\, replacing mentoring\; exact ti
  me and venue need confirmation.
-LAST-MODIFIED:20260904T092919Z
+LAST-MODIFIED:20260904T212756Z
 LOCATION:Paulet High School & Sixth Form College — assembly venue TBC
 STATUS:TENTATIVE
 TRANSP:OPAQUE
@@ -140,16 +140,16 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:House Assembly — Vulcan
 DTSTART;TZID=Europe/London:20270108T083000
-DTEND;TZID=Europe/London:20270108T090000
-DTSTAMP:20260904T092919Z
+DTEND;TZID=Europe/London:20270108T085900
+DTSTAMP:20260904T212756Z
 UID:2027-01-08-form@calendar.zw08.co.uk
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Assembly
 DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
   Tutor: Mr A Satchwell.\nAssembly day follows the handwritten timetable no
  te. The 08:30–09:00 slot is provisional\, replacing mentoring\; exact ti
  me and venue need confirmation.
-LAST-MODIFIED:20260904T092919Z
+LAST-MODIFIED:20260904T212756Z
 LOCATION:Paulet High School & Sixth Form College — assembly venue TBC
 STATUS:TENTATIVE
 TRANSP:OPAQUE
@@ -157,16 +157,16 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:House Assembly — Vulcan
 DTSTART;TZID=Europe/London:20270122T083000
-DTEND;TZID=Europe/London:20270122T090000
-DTSTAMP:20260904T092919Z
+DTEND;TZID=Europe/London:20270122T085900
+DTSTAMP:20260904T212756Z
 UID:2027-01-22-form@calendar.zw08.co.uk
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Assembly
 DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
   Tutor: Mr A Satchwell.\nAssembly day follows the handwritten timetable no
  te. The 08:30–09:00 slot is provisional\, replacing mentoring\; exact ti
  me and venue need confirmation.
-LAST-MODIFIED:20260904T092919Z
+LAST-MODIFIED:20260904T212756Z
 LOCATION:Paulet High School & Sixth Form College — assembly venue TBC
 STATUS:TENTATIVE
 TRANSP:OPAQUE
@@ -174,16 +174,16 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:House Assembly — Vulcan
 DTSTART;TZID=Europe/London:20270205T083000
-DTEND;TZID=Europe/London:20270205T090000
-DTSTAMP:20260904T092919Z
+DTEND;TZID=Europe/London:20270205T085900
+DTSTAMP:20260904T212756Z
 UID:2027-02-05-form@calendar.zw08.co.uk
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Assembly
 DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
   Tutor: Mr A Satchwell.\nAssembly day follows the handwritten timetable no
  te. The 08:30–09:00 slot is provisional\, replacing mentoring\; exact ti
  me and venue need confirmation.
-LAST-MODIFIED:20260904T092919Z
+LAST-MODIFIED:20260904T212756Z
 LOCATION:Paulet High School & Sixth Form College — assembly venue TBC
 STATUS:TENTATIVE
 TRANSP:OPAQUE
@@ -191,16 +191,16 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:House Assembly — Vulcan
 DTSTART;TZID=Europe/London:20270226T083000
-DTEND;TZID=Europe/London:20270226T090000
-DTSTAMP:20260904T092919Z
+DTEND;TZID=Europe/London:20270226T085900
+DTSTAMP:20260904T212756Z
 UID:2027-02-26-form@calendar.zw08.co.uk
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Assembly
 DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
   Tutor: Mr A Satchwell.\nAssembly day follows the handwritten timetable no
  te. The 08:30–09:00 slot is provisional\, replacing mentoring\; exact ti
  me and venue need confirmation.
-LAST-MODIFIED:20260904T092919Z
+LAST-MODIFIED:20260904T212756Z
 LOCATION:Paulet High School & Sixth Form College — assembly venue TBC
 STATUS:TENTATIVE
 TRANSP:OPAQUE
@@ -208,16 +208,16 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:House Assembly — Vulcan
 DTSTART;TZID=Europe/London:20270312T083000
-DTEND;TZID=Europe/London:20270312T090000
-DTSTAMP:20260904T092919Z
+DTEND;TZID=Europe/London:20270312T085900
+DTSTAMP:20260904T212756Z
 UID:2027-03-12-form@calendar.zw08.co.uk
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Assembly
 DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nForm: 13ADS.
   Tutor: Mr A Satchwell.\nAssembly day follows the handwritten timetable no
  te. The 08:30–09:00 slot is provisional\, replacing mentoring\; exact ti
  me and venue need confirmation.
-LAST-MODIFIED:20260904T092919Z
+LAST-MODIFIED:20260904T212756Z
 LOCATION:Paulet High School & Sixth Form College — assembly venue TBC
 STATUS:TENTATIVE
 TRANSP:OPAQUE
@@ -225,10 +225,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:House Assembly — Vulcan
 DTSTART;TZID=Europe/London:20270423T083000
-DTEND;TZID=Europe/London:20270423T090000
-DTSTAMP:20260904T092919Z
+DTEND;TZID=Europe/London:20270423T085900
+DTSTAMP:20260904T212756Z
 UID:2027-04-23-form@calendar.zw08.co.uk
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Assembly
 DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nProvisional:
   Year 13 lesson/study-leave finish date is not confirmed. Scheduled throug
@@ -236,7 +236,7 @@ DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nProvisional:
  r A Satchwell.\nAssembly day follows the handwritten timetable note. The 0
  8:30–09:00 slot is provisional\, replacing mentoring\; exact time and ve
  nue need confirmation.
-LAST-MODIFIED:20260904T092919Z
+LAST-MODIFIED:20260904T212756Z
 LOCATION:Paulet High School & Sixth Form College — assembly venue TBC
 STATUS:TENTATIVE
 TRANSP:OPAQUE
@@ -244,10 +244,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:House Assembly — Vulcan
 DTSTART;TZID=Europe/London:20270507T083000
-DTEND;TZID=Europe/London:20270507T090000
-DTSTAMP:20260904T092919Z
+DTEND;TZID=Europe/London:20270507T085900
+DTSTAMP:20260904T212756Z
 UID:2027-05-07-form@calendar.zw08.co.uk
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Assembly
 DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nProvisional:
   Year 13 lesson/study-leave finish date is not confirmed. Scheduled throug
@@ -255,7 +255,7 @@ DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nProvisional:
  r A Satchwell.\nAssembly day follows the handwritten timetable note. The 0
  8:30–09:00 slot is provisional\, replacing mentoring\; exact time and ve
  nue need confirmation.
-LAST-MODIFIED:20260904T092919Z
+LAST-MODIFIED:20260904T212756Z
 LOCATION:Paulet High School & Sixth Form College — assembly venue TBC
 STATUS:TENTATIVE
 TRANSP:OPAQUE
@@ -263,10 +263,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:House Assembly — Vulcan
 DTSTART;TZID=Europe/London:20270521T083000
-DTEND;TZID=Europe/London:20270521T090000
-DTSTAMP:20260904T092919Z
+DTEND;TZID=Europe/London:20270521T085900
+DTSTAMP:20260904T212756Z
 UID:2027-05-21-form@calendar.zw08.co.uk
-SEQUENCE:0
+SEQUENCE:1
 CATEGORIES:Assembly
 DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nProvisional:
   Year 13 lesson/study-leave finish date is not confirmed. Scheduled throug
@@ -274,7 +274,7 @@ DESCRIPTION:Week B. Paulet High School & Sixth Form College.\nProvisional:
  r A Satchwell.\nAssembly day follows the handwritten timetable note. The 0
  8:30–09:00 slot is provisional\, replacing mentoring\; exact time and ve
  nue need confirmation.
-LAST-MODIFIED:20260904T092919Z
+LAST-MODIFIED:20260904T212756Z
 LOCATION:Paulet High School & Sixth Form College — assembly venue TBC
 STATUS:TENTATIVE
 TRANSP:OPAQUE
