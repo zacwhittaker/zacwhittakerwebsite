@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b0e0c" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta
+      name="description"
+      content="Four friends. Every bet. The full picture."
+    />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bet Board — The group ledger</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to dashboard</a>
+    <div class="ambient" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#zac" aria-label="Bet Board home"
+        ><span class="brand-symbol" aria-hidden="true">↗</span> BET<span
+          class="brand-light"
+          >BOARD</span
+        ></a
+      >
+      <nav class="main-nav" aria-label="Player pages">
+        <div id="player-navigation" class="player-navigation"></div>
+      </nav>
+      <div id="account-controls" class="account-controls"></div>
+    </header>
+    <main id="main" class="page-shell" tabindex="-1">
+      <div id="preview-banner" class="preview-banner" hidden>
+        <span
+          ><span class="preview-dot"></span><strong>Preview mode</strong
+          ><span class="preview-copy">
+            Sample results. Try adding and settling a bet.</span
+          ></span
+        ><button id="demo-start" class="text-button">
+          Try the demo <span aria-hidden="true">↗</span>
+        </button>
+      </div>
+      <div id="connection-error" class="error-banner" role="alert" hidden></div>
+      <section id="overview-page" aria-labelledby="page-title">
+        <div class="page-heading">
+          <div>
+            <p class="eyebrow">
+              <span class="tiny-cross" aria-hidden="true">+</span> THE GROUP
+              LEDGER <span class="eyebrow-divider">/</span> VOL. 01
+            </p>
+            <h1 id="page-title">PLAYER PROFILE <span>01 / 04</span></h1>
+            <p class="page-subtitle" id="player-subtitle">The full picture.</p>
+          </div>
+          <div class="status-block">
+            <span class="status-label"
+              ><i></i><span id="data-status">Loading results</span></span
+            ><span id="updated-at" class="muted mono">—</span>
+          </div>
+        </div>
+        <div class="charts-toolbar">
+          <div class="section-title">
+            <h2>Performance</h2>
+            <span class="count-pill" id="profile-number">01</span>
+          </div>
+          <div class="chart-options">
+            <label class="stake-toggle"
+              ><input type="checkbox" id="show-stakes" checked /><span
+                class="toggle-track"
+              ></span
+              >Show stakes</label
+            >
+            <div class="period-switch" role="group" aria-label="Chart period">
+              <button data-period="7">7D</button
+              ><button data-period="30">30D</button
+              ><button data-period="all" class="selected" aria-pressed="true">
+                All time
+              </button>
+            </div>
+          </div>
+        </div>
+        <p id="period-note" class="period-note">
+          Cumulative results · All time · GBP
+        </p>
+        <div id="player-grid" class="player-grid" aria-busy="true"></div>
+        <div class="board-footnote">
+          <span><i class="legend-line"></i> Net profit <i class="legend-line stake-line"></i> Amount staked</span>
+          <span id="graph-note">Open bets enter the profit line when settled. Dates use UK time.</span>
+        </div>
+      </section>
+      <section id="bets-page" aria-labelledby="bets-title" hidden>
+        <div class="page-heading">
+          <div>
+            <p class="eyebrow">YOUR PERSONAL LEDGER</p>
+        <h1 id="bets-title">Your bets. <span>All accounted for.</span></h1>
+            <p class="page-subtitle">
+              Keep track of what’s in play and close out the result.
+            </p>
+          </div>
+        </div>
+        <div class="bets-toolbar">
+          <div class="period-switch" role="group" aria-label="Bet status">
+          <button data-bet-filter="pending" class="selected">
+              Active <span id="active-count"></span></button
+            ><button data-bet-filter="settled">Settled</button
+            ><button data-bet-filter="all">All bets</button>
+          </div>
+          <span class="muted" id="bets-summary"></span>
+        </div>
+        <div id="bets-list" class="bets-list"></div>
+      </section>
+      <footer class="site-footer">
+        <span class="footer-wordmark">BB<span>↗</span></span>
+        <p>Keep the memories. Track the numbers.</p>
+        <span class="footer-tag">FOUR FRIENDS / ONE BOARD</span>
+      </footer>
+    </main>
+    <dialog id="app-dialog" class="app-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-inner">
+        <button
+          class="dialog-close icon-button"
+          aria-label="Close dialog"
+          id="close-dialog"
+        >
+          ×
+        </button>
+        <div id="dialog-content"></div>
+      </div>
+    </dialog>
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+    <noscript
+      ><p class="noscript">
+        Please enable JavaScript to view the board.
+      </p></noscript
+    >
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
