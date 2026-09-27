@@ -38,12 +38,33 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:20261114-computer-science-open-day@calendar.zw08.co.uk
-DTSTAMP:20260927T162200Z
+DTSTAMP:20260927T163100Z
+SEQUENCE:1
 DTSTART;TZID=Europe/London:20261114T090000
-DTEND;TZID=Europe/London:20261114T160000
-SUMMARY:Computer Science Open Day — Subject Drop in
+DTEND;TZID=Europe/London:20261114T091500
+SUMMARY:Computer Science Drop-in
 LOCATION:Atrium\, Computer Science (Y9)\, University of Birmingham
-DESCRIPTION:Registered. Subject drop in for Computer Science.
+DESCRIPTION:Registered Computer Science subject drop-in. First session before the campus tour.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261114-computer-science-open-day-2@calendar.zw08.co.uk
+DTSTAMP:20260927T163100Z
+DTSTART;TZID=Europe/London:20261114T094500
+DTEND;TZID=Europe/London:20261114T124500
+SUMMARY:Computer Science Drop-in
+LOCATION:Atrium\, Computer Science (Y9)\, University of Birmingham
+DESCRIPTION:Registered Computer Science subject drop-in. Session between the campus tour and accommodation talk.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261114-computer-science-open-day-3@calendar.zw08.co.uk
+DTSTAMP:20260927T163100Z
+DTSTART;TZID=Europe/London:20261114T131500
+DTEND;TZID=Europe/London:20261114T160000
+SUMMARY:Computer Science Drop-in
+LOCATION:Atrium\, Computer Science (Y9)\, University of Birmingham
+DESCRIPTION:Registered Computer Science subject drop-in. Final session after the accommodation talk.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
