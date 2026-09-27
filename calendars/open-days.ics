@@ -38,33 +38,33 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:20261114-computer-science-open-day@calendar.zw08.co.uk
-DTSTAMP:20260927T163100Z
-SEQUENCE:1
+DTSTAMP:20260927T163400Z
+SEQUENCE:2
 DTSTART;TZID=Europe/London:20261114T090000
-DTEND;TZID=Europe/London:20261114T091500
-SUMMARY:Computer Science Drop-in
-LOCATION:Atrium\, Computer Science (Y9)\, University of Birmingham
-DESCRIPTION:Registered Computer Science subject drop-in. First session before the campus tour.
+DTEND;TZID=Europe/London:20261114T091000
+SUMMARY:CS Drop-in (1 of 3)
+LOCATION:Computer Science (Y9)\, Atrium
+DESCRIPTION:Registered Computer Science subject drop-in. First session before the campus tour. Five-minute gap before the tour.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:20261114-computer-science-open-day-2@calendar.zw08.co.uk
-DTSTAMP:20260927T163100Z
-DTSTART;TZID=Europe/London:20261114T094500
-DTEND;TZID=Europe/London:20261114T124500
-SUMMARY:Computer Science Drop-in
-LOCATION:Atrium\, Computer Science (Y9)\, University of Birmingham
-DESCRIPTION:Registered Computer Science subject drop-in. Session between the campus tour and accommodation talk.
+DTSTAMP:20260927T163400Z
+DTSTART;TZID=Europe/London:20261114T095000
+DTEND;TZID=Europe/London:20261114T124000
+SUMMARY:CS Drop-in (2 of 3)
+LOCATION:Computer Science (Y9)\, Atrium
+DESCRIPTION:Registered Computer Science subject drop-in. Session between the campus tour and accommodation talk, with five-minute gaps for moving between sessions.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:20261114-computer-science-open-day-3@calendar.zw08.co.uk
-DTSTAMP:20260927T163100Z
-DTSTART;TZID=Europe/London:20261114T131500
+DTSTAMP:20260927T163400Z
+DTSTART;TZID=Europe/London:20261114T132000
 DTEND;TZID=Europe/London:20261114T160000
-SUMMARY:Computer Science Drop-in
-LOCATION:Atrium\, Computer Science (Y9)\, University of Birmingham
-DESCRIPTION:Registered Computer Science subject drop-in. Final session after the accommodation talk.
+SUMMARY:CS Drop-in (3 of 3)
+LOCATION:Computer Science (Y9)\, Atrium
+DESCRIPTION:Registered Computer Science subject drop-in. Final session after the accommodation talk, with a five-minute gap to move venues.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
