@@ -66,4 +66,14 @@ LOCATION:Great Hall\, Aston Webb Building (R6)\, University of Birmingham
 DESCRIPTION:Registered accommodation talk.
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261003-derby-computer-science-open-day@calendar.zw08.co.uk
+DTSTAMP:20260927T162500Z
+DTSTART;TZID=Europe/London:20261003T093000
+DTEND;TZID=Europe/London:20261003T150000
+SUMMARY:University of Derby Open Day — Computer Science
+LOCATION:University of Derby
+DESCRIPTION:Registered Computer Science open day. Ticket confirmed for 09:30–15:00.
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
